@@ -1,0 +1,62 @@
+#back {
+  background-image: url("pict/back.svg");
+  z-index: -1;
+  position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+aside {
+  min-width: 24%;
+  height: 90vh;
+  background: linear-gradient(-225deg, #ecab11 0% 35%, #ffffff);
+  text-align: center;
+  border: 0.4vh double white;
+  border-radius: 4vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 4fr;
+  overflow-y: hidden;
+  overflow-y: scroll;
+}
+header {
+  color: white;
+  background-color: #ecab11;
+  display: grid;
+  border: 0.4vh outset rgb(207, 139, 29);
+  grid-template-rows: 1fr 1fr;
+  grid-auto-flow: column;
+  border-radius: 2vh;
+  margin-left: 1vh;
+}
+
+#center {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr;
+  text-align: center;
+}
+.left {
+  grid-column: 2/3;
+  font-size: 2.5vh;
+  margin: 7vh;
+  background-color: rgb(207, 139, 29);
+  height: 25vh;
+  width: 25vh;
+  border-radius: 5vh;
+}
+.right {
+  grid-column: 4/5;
+  font-size: 2.5vh;
+  margin: 7vh;
+  background-color: rgb(207, 139, 29);
+  height: 25vh;
+  width: 25vh;
+  border-radius: 5vh;
+}
+.link {
+}
